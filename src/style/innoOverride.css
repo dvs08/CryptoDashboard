@@ -1,0 +1,22 @@
+.Input{
+
+    /* border: 2px solid black !important; */
+    /* width: 420px !important;
+    height: 50px !important; */
+}
+
+.Input-input{
+
+    color: black !important;
+}
+
+.Header-search{
+
+    width: auto !important;
+}
+
+.d-flex{
+    justify-content: center ;
+}
+
+

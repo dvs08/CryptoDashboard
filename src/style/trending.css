@@ -1,0 +1,153 @@
+.box{
+
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8px;
+}
+
+
+.centr{
+
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.imgs{
+    height: 80px;
+}
+
+.txt{
+    font-size: 20px;
+    padding: 20px 15px 0px 15px;
+    font-weight: bold;
+}
+.flx{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.spark{
+
+    height: 40px;
+}
+.sparkInfo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.catname{
+
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+
+}
+
+
+.box2{
+
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-top: 8px; */
+
+}
+.spark2{
+
+    height: 50px;
+}
+.sparkInfo2{
+
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   padding-bottom: 10px;
+}
+
+
+/*Carousel*/
+
+/* src/Carousel.css */
+.carousel {
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Hide overflow */
+    /* justify-content: center;  */
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition */
+    gap: 12px; 
+}
+
+.carousel-cont{
+
+    margin-top: 20px;
+}
+
+.carousel-image {
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    border-radius: 20px; /* Optional: for rounded corners */
+    object-fit: cover; /* Maintain image aspect ratio */
+    cursor: pointer;
+}
+
+.left{
+    position: absolute;
+    top: 76px;
+    width: fit-content;
+    right: 0;
+    bottom: 0;
+    left: -60px;
+}
+
+.right{
+    position: absolute;
+    top: 76px;
+    right: -40px;
+    bottom: 0;
+    left: 10;
+}
+.carousel-button {
+    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: white; 
+    border: none; 
+    border-radius: 5px; 
+}
+
+.carousel-button:hover {
+    background-color: #f0f0f0; 
+}
+
+.carousel-form{
+    display: flex;
+    position: relative;
+
+}
